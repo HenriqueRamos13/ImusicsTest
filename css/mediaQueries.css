@@ -1,0 +1,70 @@
+@media (max-width: 505px) {
+  .comment-name {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 910px) {
+  .music-card::after {
+    display: none;
+  }
+  
+  .musics-right, .musics-left {
+    padding: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .musics-left {
+    padding-top: 50px;
+  }
+
+  .date-circle-area {
+    display: none;
+  }
+
+  .middle-line {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  nav a{
+    display: none;
+  }
+  .current-music-area span {
+    display: none;
+    flex-wrap: nowrap;
+  }
+  .player {
+    padding: 0 10px;
+
+  }
+  .player-left {
+    width: 100%;
+    padding: 0;
+  }
+  .player-right {
+    width: auto;
+  }
+  .music-status h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .music-card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .musics-left, .musics-right {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card-comments span{
+    font-size: 10px;
+  }
+}
